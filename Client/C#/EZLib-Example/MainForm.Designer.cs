@@ -37,7 +37,7 @@
             // 
             // ShowNewsButton
             // 
-            this.ShowNewsButton.Location = new System.Drawing.Point(12, 12);
+            this.ShowNewsButton.Location = new System.Drawing.Point(12, 10);
             this.ShowNewsButton.Name = "ShowNewsButton";
             this.ShowNewsButton.Size = new System.Drawing.Size(97, 23);
             this.ShowNewsButton.TabIndex = 0;
@@ -47,7 +47,7 @@
             // 
             // GetVariableButton
             // 
-            this.GetVariableButton.Location = new System.Drawing.Point(12, 41);
+            this.GetVariableButton.Location = new System.Drawing.Point(12, 39);
             this.GetVariableButton.Name = "GetVariableButton";
             this.GetVariableButton.Size = new System.Drawing.Size(97, 23);
             this.GetVariableButton.TabIndex = 1;
@@ -57,7 +57,7 @@
             // 
             // GetNameButton
             // 
-            this.GetNameButton.Location = new System.Drawing.Point(127, 12);
+            this.GetNameButton.Location = new System.Drawing.Point(115, 10);
             this.GetNameButton.Name = "GetNameButton";
             this.GetNameButton.Size = new System.Drawing.Size(97, 23);
             this.GetNameButton.TabIndex = 2;
@@ -67,7 +67,7 @@
             // 
             // GetSerialButton
             // 
-            this.GetSerialButton.Location = new System.Drawing.Point(127, 41);
+            this.GetSerialButton.Location = new System.Drawing.Point(115, 39);
             this.GetSerialButton.Name = "GetSerialButton";
             this.GetSerialButton.Size = new System.Drawing.Size(97, 23);
             this.GetSerialButton.TabIndex = 3;
@@ -77,9 +77,9 @@
             // 
             // SilverRequirementSerial
             // 
-            this.SilverRequirementSerial.Location = new System.Drawing.Point(230, 12);
+            this.SilverRequirementSerial.Location = new System.Drawing.Point(218, 10);
             this.SilverRequirementSerial.Name = "SilverRequirementSerial";
-            this.SilverRequirementSerial.Size = new System.Drawing.Size(97, 49);
+            this.SilverRequirementSerial.Size = new System.Drawing.Size(97, 52);
             this.SilverRequirementSerial.TabIndex = 4;
             this.SilverRequirementSerial.Text = "Requires Silver Serial";
             this.SilverRequirementSerial.UseVisualStyleBackColor = true;
@@ -89,7 +89,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(339, 73);
+            this.ClientSize = new System.Drawing.Size(326, 73);
             this.Controls.Add(this.SilverRequirementSerial);
             this.Controls.Add(this.GetSerialButton);
             this.Controls.Add(this.GetNameButton);
