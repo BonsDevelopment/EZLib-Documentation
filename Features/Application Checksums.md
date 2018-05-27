@@ -1,9 +1,5 @@
 # Application Checksums
 
-## Account Requirements
-* Premium or,
-* Premium Plus
-
 **Description**
 
 The checksum feature provides additional security for your application. The server will not accept a request without a valid checksum. Valid checksums can be added to your application via the website and are entirely server-sided. 
@@ -14,7 +10,9 @@ Please note that this feature is optional and is not required for your applicati
 
 ## Using Checksums
 
-*Requires an application to be [created](https://ezlib.io/apps/new)*.
+__Requirements__
+* A created [application](https://ezlib.io/apps/new)
+* Premium or Premium Plus
 
 __Enabling the checksums feature__
 

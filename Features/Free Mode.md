@@ -1,8 +1,5 @@
 # Free Mode
 
-## Account Requirements
-* N/A
-
 **Description**
 
 The free mode feature allows developers have their application in beta stage until it is stable to be sold.
@@ -13,7 +10,8 @@ Please note that this feature is optional and is not required for your applicati
 
 ## Using Free Mode
 
-*Requires an application to be [created](https://ezlib.io/apps/new)*.
+__Requirements__
+* A created [application](https://ezlib.io/apps/new)
 
 __Enabling the free mode feature__
 

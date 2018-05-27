@@ -1,14 +1,21 @@
-# Feature: ProtectedForms
-## Requries: N/A
+# ProtectedForms
 
 **Description**
 
-ProtectedForms is an anti-form patcher solution. It will stop tools like `Cheat Engine` and alike tools from being able to switch to a form the user should not be in if they are not authenticated and have a valid serial.
+The ProtectedForms feature is an anti-form patcher solution. It stops tools like `Cheat Engine` and alike tools.
 
-**How can I use this feature?**
+Please note that this feature is optional and is not required for your application to run.
 
-*Assuming you have created an application already with EZLib referenced.*
+## Using ProtectedForms
 
-You will inherit it onto your forms that you would like to be "protected". You will change the inheritance of `Form` to `ProtectedForms`.
+__Requirements__
+* A created [application](https://ezlib.io/apps/new)
+* EZLib referenced to your project
+
+__Enabling the checksums feature__
+
+1. Navigate to the forms that require a user to be authenticated and have a valid serial
+2. Change the inheritance of `Form` to `ProtectedForms`
+
 
 ![ProtectedForms](https://i.imgur.com/wpSZ6N8.png)

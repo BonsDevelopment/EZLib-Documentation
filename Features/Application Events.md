@@ -1,7 +1,4 @@
-# Application Checksums
-
-## Account Requirements
-* N/A
+# Application Events
 
 **Description**
 
@@ -13,7 +10,8 @@ Please note that this feature is optional and is not required for your applicati
 
 ## Using Events
 
-*Requires an application to be [created](https://ezlib.io/apps/new)*.
+__Requirements__
+* A created [application](https://ezlib.io/apps/new)
 
 __Enabling the events feature__
 
