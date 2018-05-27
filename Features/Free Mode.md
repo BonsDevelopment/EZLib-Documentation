@@ -2,9 +2,7 @@
 
 **Description**
 
-The free mode feature allows developers have their application in beta stage until it is stable to be sold.
-
-A developer does not want to create 2 types of their application and have the free version of their application laying around on the internet so it would defeat the purpose of their application to sell it. Free Mode allows the developer to have EZLib has a licensing solution but turned off until they feel it is stable to be sold.
+The free mode feature allows developers have their application in a development stage until it is in a production stabe.
 
 Please note that this feature is optional and is not required for your application to run.
 
