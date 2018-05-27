@@ -9,5 +9,6 @@ ProtectedForms is an anti-form patcher solution. It will stop tools like `Cheat 
 
 *Assuming you have created an application already with EZLib referenced.*
 
-You will reference it onto your forms that you would like to be "protected". You will change the inheritance of `Form` to `ProtectedForms`.
+You will inherit it onto your forms that you would like to be "protected". You will change the inheritance of `Form` to `ProtectedForms`.
+
 ![ProtectedForms](https://i.imgur.com/wpSZ6N8.png)
