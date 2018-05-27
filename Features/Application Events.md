@@ -1,17 +1,31 @@
-# Feature: Events
-## Requries: N/A
+# Application Checksums
 
-**__Description__**
+## Account Requirements
+* N/A
 
-Events notifies you through a webhook to notify you of the selected options.
+**Description**
 
-* Initialize (a new instance of your applicaiton has been initialized)
-* Login (a user has logged in)
-* Serial Validation (a successful validation of the user for a serial)
-* Log Exceptions (exceptions your application has thrown)
+The events feature provides the developer a way of knowing triggered events in their application.
 
-**__Where can I find this feature?__**
+Events are powered by a user when they have initialized an application. If the application has `Application Events` enabled then the webhook will be sent a notification of triggered events. 
 
-*Assuming you have created an application already.*
+Please note that this feature is optional and is not required for your application to run.
 
-You click `Edit Application` under the options of your application then click `Application Settings` and check `Applicaiton Events`. Head over back to your applications and click `Application Events` under the options of your application. Click the selected options you'd like. Click on `Webhook` input a Discord webhook.
+## Using Events
+
+*Requires an application to be [created](https://ezlib.io/apps/new)*.
+
+__Enabling the events feature__
+
+1. Navigate to the EZLib website and onto the application page
+2. Click `Edit Application`
+3. Click `Application Settings`
+4. Enable the `Application Events` feature
+
+__Subscribing to events__
+1. Navigate to the EZLib website and onto the application page
+2. Click on the application you want to add a checksum for
+3. Click the `Application Events` found under the options of your application
+4. Click the `Webhook` tab
+5. Add a Discord webhook
+6. Select events you would like to subscribe to

@@ -1,5 +1,8 @@
-# Feature: Checksums
-## Requires: Premium/Premium Plus
+# Application Checksums
+
+## Account Requirements
+* Premium or,
+* Premium Plus
 
 **Description**
 
@@ -7,9 +10,11 @@ The checksum feature provides additional security for your application. The serv
 
 Checksums stop modified copies of your application from communicating with EZLib servers. This means the application will not be able to retrieve sensitive data like server variables.
 
-**Feature Usage**
+Please note that this feature is optional and is not required for your application to run.
 
-*Requires an application to be [created.](creating)*
+## Using Checksums
+
+*Requires an application to be [created](https://ezlib.io/apps/new)*.
 
 __Enabling the checksums feature__
 

@@ -1,12 +1,28 @@
-# Feature: Free Mode
-## Requries: N/A
+# Free Mode
 
-**__Description__**
+## Account Requirements
+* N/A
 
-Free Mode is a feature that you can enable within EZLib when your application is in a stage where you would like it to be free until it is stable. You do not want to have a seperate application laying around in the internet of your application being completely free. This allows you to disable all authentication measures, once it is disabled the user will be prompted with proper authentication.
+**Description**
 
-**__Where can I find this feature?__**
+The free mode feature allows developers have their application in beta stage until it is stable to be sold.
 
-*Assuming you have created an application already.*
+A developer does not want to create 2 types of their application and have the free version of their application laying around on the internet so it would defeat the purpose of their application to sell it. Free Mode allows the developer to have EZLib has a licensing solution but turned off until they feel it is stable to be sold.
 
-You click `Edit Application` under the options of your application then click `Application Settings` and check `Free Mode`.
+Please note that this feature is optional and is not required for your application to run.
+
+## Using Free Mode
+
+*Requires an application to be [created](https://ezlib.io/apps/new)*.
+
+__Enabling the free mode feature__
+
+1. Navigate to the EZLib website and onto the application page
+2. Click `Edit Application`
+3. Click `Application Settings`
+4. Enable the `Free Mode` feature
+
+__Checking if the application is in free mode__
+
+1. Navigate to the class where you initialize EZLib
+![Free Mode](https://i.imgur.com/LknShxu.png)
