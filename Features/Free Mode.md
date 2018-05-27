@@ -7,6 +7,6 @@ Free Mode is a feature that you can enable within EZLib when your application is
 
 **__Where can I find this feature?__**
 
-*Assuming you have created an applicaiton already.*
+*Assuming you have created an application already.*
 
 You click `Edit Application` under the options of your application then click `Application Settings` and check `Free Mode`.

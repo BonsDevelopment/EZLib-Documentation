@@ -12,6 +12,6 @@ Events notifies you through a webhook to notify you of the selected options.
 
 **__Where can I find this feature?__**
 
-*Assuming you have created an applicaiton already.*
+*Assuming you have created an application already.*
 
 You click `Edit Application` under the options of your application then click `Application Settings` and check `Applicaiton Events`. Head over back to your applications and click `Application Events` under the options of your application. Click the selected options you'd like. Click on `Webhook` input a Discord webhook.
