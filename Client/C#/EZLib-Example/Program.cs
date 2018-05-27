@@ -1,13 +1,12 @@
-﻿using EZLib;
-using System;
+﻿using System;
 using System.Windows.Forms;
 
-namespace EZLib_Example
+namespace EZLib.Test
 {
     internal static class Program
     {
         /// <summary>
-        /// The main entry point for the application.
+        ///     The main entry point for the application.
         /// </summary>
         [STAThread]
         private static void Main()
@@ -15,27 +14,22 @@ namespace EZLib_Example
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            AppDomain.CurrentDomain.UnhandledException +=
-                (sender, args) => HandleUnhandledException(args.ExceptionObject as Exception);
-            Application.ThreadException +=
-                (sender, args) => HandleUnhandledException(args.Exception);
-
+            // Tools to help stop anti-reversing.
             var settings = new EzLibSettings
             {
                 AntiDebug = false,
-                AntiSuspend = true,
-                AntiDump = true,
-                AntiVM = true,
-                AntiSandboxie = true,
-                MainForm = new MainForm()
+                AntiDump = false,
+                AntiVm = false,
+                AntiSandboxie = false
             };
 
-            new Initialize("TOKEN", "VERSION", settings);
-        }
+            var init = new Initialize("JiThi7WwND", "1.0.0", settings);
 
-        private static void HandleUnhandledException(Exception exception)
-        {
-            new Exceptions(exception);
+            // Have your application be licensed by EZLib and offer a free mode time for your startup.
+            if (init.IsFreeMode())
+                Application.Run(new MainForm());
+            else
+                Application.Run(new LoginForm());
         }
     }
 }

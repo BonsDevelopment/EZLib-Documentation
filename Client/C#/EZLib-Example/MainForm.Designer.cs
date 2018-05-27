@@ -1,4 +1,4 @@
-﻿namespace EZLib_Example
+﻿namespace EZLib.Test
 {
     partial class MainForm
     {
@@ -28,92 +28,164 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ShowNewsButton = new System.Windows.Forms.Button();
-            this.GetVariableButton = new System.Windows.Forms.Button();
-            this.GetNameButton = new System.Windows.Forms.Button();
-            this.GetSerialButton = new System.Windows.Forms.Button();
-            this.SilverRequirementSerial = new System.Windows.Forms.Button();
+            this.UsernameLabel1 = new System.Windows.Forms.Label();
+            this.EmailLabel1 = new System.Windows.Forms.Label();
+            this.SerialLabel1 = new System.Windows.Forms.Label();
+            this.ExpirationDateLabel1 = new System.Windows.Forms.Label();
+            this.SerialLabel2 = new System.Windows.Forms.Label();
+            this.ExpirationDateLabel2 = new System.Windows.Forms.Label();
+            this.EmailLabel2 = new System.Windows.Forms.Label();
+            this.UsernameLabel2 = new System.Windows.Forms.Label();
+            this.FetchVariableButton = new System.Windows.Forms.Button();
+            this.FetchHWIDButton = new System.Windows.Forms.Button();
+            this.FetchNewsButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // ShowNewsButton
+            // UsernameLabel1
             // 
-            this.ShowNewsButton.Location = new System.Drawing.Point(12, 10);
-            this.ShowNewsButton.Name = "ShowNewsButton";
-            this.ShowNewsButton.Size = new System.Drawing.Size(97, 23);
-            this.ShowNewsButton.TabIndex = 0;
-            this.ShowNewsButton.Text = "Show News";
-            this.ShowNewsButton.UseVisualStyleBackColor = true;
-            this.ShowNewsButton.Click += new System.EventHandler(this.ShowNewsButton_Click);
+            this.UsernameLabel1.AutoSize = true;
+            this.UsernameLabel1.Location = new System.Drawing.Point(12, 9);
+            this.UsernameLabel1.Name = "UsernameLabel1";
+            this.UsernameLabel1.Size = new System.Drawing.Size(61, 13);
+            this.UsernameLabel1.TabIndex = 0;
+            this.UsernameLabel1.Text = "Username:";
             // 
-            // GetVariableButton
+            // EmailLabel1
             // 
-            this.GetVariableButton.Location = new System.Drawing.Point(12, 39);
-            this.GetVariableButton.Name = "GetVariableButton";
-            this.GetVariableButton.Size = new System.Drawing.Size(97, 23);
-            this.GetVariableButton.TabIndex = 1;
-            this.GetVariableButton.Text = "Get Variable";
-            this.GetVariableButton.UseVisualStyleBackColor = true;
-            this.GetVariableButton.Click += new System.EventHandler(this.GetVariableButton_Click);
+            this.EmailLabel1.AutoSize = true;
+            this.EmailLabel1.Location = new System.Drawing.Point(12, 31);
+            this.EmailLabel1.Name = "EmailLabel1";
+            this.EmailLabel1.Size = new System.Drawing.Size(81, 13);
+            this.EmailLabel1.TabIndex = 1;
+            this.EmailLabel1.Text = "Email Address:";
             // 
-            // GetNameButton
+            // SerialLabel1
             // 
-            this.GetNameButton.Location = new System.Drawing.Point(115, 10);
-            this.GetNameButton.Name = "GetNameButton";
-            this.GetNameButton.Size = new System.Drawing.Size(97, 23);
-            this.GetNameButton.TabIndex = 2;
-            this.GetNameButton.Text = "Get Name";
-            this.GetNameButton.UseVisualStyleBackColor = true;
-            this.GetNameButton.Click += new System.EventHandler(this.GetNameButton_Click);
+            this.SerialLabel1.AutoSize = true;
+            this.SerialLabel1.Location = new System.Drawing.Point(12, 70);
+            this.SerialLabel1.Name = "SerialLabel1";
+            this.SerialLabel1.Size = new System.Drawing.Size(38, 13);
+            this.SerialLabel1.TabIndex = 2;
+            this.SerialLabel1.Text = "Serial:";
             // 
-            // GetSerialButton
+            // ExpirationDateLabel1
             // 
-            this.GetSerialButton.Location = new System.Drawing.Point(115, 39);
-            this.GetSerialButton.Name = "GetSerialButton";
-            this.GetSerialButton.Size = new System.Drawing.Size(97, 23);
-            this.GetSerialButton.TabIndex = 3;
-            this.GetSerialButton.Text = "Get Serial";
-            this.GetSerialButton.UseVisualStyleBackColor = true;
-            this.GetSerialButton.Click += new System.EventHandler(this.GetSerialButton_Click);
+            this.ExpirationDateLabel1.AutoSize = true;
+            this.ExpirationDateLabel1.Location = new System.Drawing.Point(12, 92);
+            this.ExpirationDateLabel1.Name = "ExpirationDateLabel1";
+            this.ExpirationDateLabel1.Size = new System.Drawing.Size(89, 13);
+            this.ExpirationDateLabel1.TabIndex = 3;
+            this.ExpirationDateLabel1.Text = "Expiration Date:";
             // 
-            // SilverRequirementSerial
+            // SerialLabel2
             // 
-            this.SilverRequirementSerial.Location = new System.Drawing.Point(218, 10);
-            this.SilverRequirementSerial.Name = "SilverRequirementSerial";
-            this.SilverRequirementSerial.Size = new System.Drawing.Size(97, 52);
-            this.SilverRequirementSerial.TabIndex = 4;
-            this.SilverRequirementSerial.Text = "Requires Silver Serial";
-            this.SilverRequirementSerial.UseVisualStyleBackColor = true;
-            this.SilverRequirementSerial.Click += new System.EventHandler(this.SilverRequirementSerial_Click);
+            this.SerialLabel2.AutoSize = true;
+            this.SerialLabel2.Location = new System.Drawing.Point(56, 70);
+            this.SerialLabel2.Name = "SerialLabel2";
+            this.SerialLabel2.Size = new System.Drawing.Size(26, 13);
+            this.SerialLabel2.TabIndex = 4;
+            this.SerialLabel2.Text = "N/A";
+            // 
+            // ExpirationDateLabel2
+            // 
+            this.ExpirationDateLabel2.AutoSize = true;
+            this.ExpirationDateLabel2.Location = new System.Drawing.Point(107, 92);
+            this.ExpirationDateLabel2.Name = "ExpirationDateLabel2";
+            this.ExpirationDateLabel2.Size = new System.Drawing.Size(26, 13);
+            this.ExpirationDateLabel2.TabIndex = 5;
+            this.ExpirationDateLabel2.Text = "N/A";
+            // 
+            // EmailLabel2
+            // 
+            this.EmailLabel2.AutoSize = true;
+            this.EmailLabel2.Location = new System.Drawing.Point(99, 31);
+            this.EmailLabel2.Name = "EmailLabel2";
+            this.EmailLabel2.Size = new System.Drawing.Size(26, 13);
+            this.EmailLabel2.TabIndex = 6;
+            this.EmailLabel2.Text = "N/A";
+            // 
+            // UsernameLabel2
+            // 
+            this.UsernameLabel2.AutoSize = true;
+            this.UsernameLabel2.Location = new System.Drawing.Point(79, 9);
+            this.UsernameLabel2.Name = "UsernameLabel2";
+            this.UsernameLabel2.Size = new System.Drawing.Size(26, 13);
+            this.UsernameLabel2.TabIndex = 7;
+            this.UsernameLabel2.Text = "N/A";
+            // 
+            // FetchVariableButton
+            // 
+            this.FetchVariableButton.Location = new System.Drawing.Point(248, 116);
+            this.FetchVariableButton.Name = "FetchVariableButton";
+            this.FetchVariableButton.Size = new System.Drawing.Size(90, 23);
+            this.FetchVariableButton.TabIndex = 8;
+            this.FetchVariableButton.Text = "Fetch Variable";
+            this.FetchVariableButton.UseVisualStyleBackColor = true;
+            this.FetchVariableButton.Click += new System.EventHandler(this.FetchVariableButton_Click);
+            // 
+            // FetchHWIDButton
+            // 
+            this.FetchHWIDButton.Location = new System.Drawing.Point(15, 116);
+            this.FetchHWIDButton.Name = "FetchHWIDButton";
+            this.FetchHWIDButton.Size = new System.Drawing.Size(118, 23);
+            this.FetchHWIDButton.TabIndex = 9;
+            this.FetchHWIDButton.Text = "Fetch Hardware ID";
+            this.FetchHWIDButton.UseVisualStyleBackColor = true;
+            this.FetchHWIDButton.Click += new System.EventHandler(this.FetchHWIDButton_Click);
+            // 
+            // FetchNewsButton
+            // 
+            this.FetchNewsButton.Location = new System.Drawing.Point(139, 116);
+            this.FetchNewsButton.Name = "FetchNewsButton";
+            this.FetchNewsButton.Size = new System.Drawing.Size(103, 23);
+            this.FetchNewsButton.TabIndex = 10;
+            this.FetchNewsButton.Text = "Fetch News";
+            this.FetchNewsButton.UseVisualStyleBackColor = true;
+            this.FetchNewsButton.Click += new System.EventHandler(this.FetchNewsButton_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(326, 73);
-            this.Controls.Add(this.SilverRequirementSerial);
-            this.Controls.Add(this.GetSerialButton);
-            this.Controls.Add(this.GetNameButton);
-            this.Controls.Add(this.GetVariableButton);
-            this.Controls.Add(this.ShowNewsButton);
+            this.ClientSize = new System.Drawing.Size(350, 151);
+            this.Controls.Add(this.FetchNewsButton);
+            this.Controls.Add(this.FetchHWIDButton);
+            this.Controls.Add(this.FetchVariableButton);
+            this.Controls.Add(this.UsernameLabel2);
+            this.Controls.Add(this.EmailLabel2);
+            this.Controls.Add(this.ExpirationDateLabel2);
+            this.Controls.Add(this.SerialLabel2);
+            this.Controls.Add(this.ExpirationDateLabel1);
+            this.Controls.Add(this.SerialLabel1);
+            this.Controls.Add(this.EmailLabel1);
+            this.Controls.Add(this.UsernameLabel1);
+            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MainForm";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "EZLib Example";
-            this.TopMost = true;
+            this.Text = "MainForm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button ShowNewsButton;
-        private System.Windows.Forms.Button GetVariableButton;
-        private System.Windows.Forms.Button GetNameButton;
-        private System.Windows.Forms.Button GetSerialButton;
-        private System.Windows.Forms.Button SilverRequirementSerial;
+        private System.Windows.Forms.Label UsernameLabel1;
+        private System.Windows.Forms.Label EmailLabel1;
+        private System.Windows.Forms.Label SerialLabel1;
+        private System.Windows.Forms.Label ExpirationDateLabel1;
+        private System.Windows.Forms.Label SerialLabel2;
+        private System.Windows.Forms.Label ExpirationDateLabel2;
+        private System.Windows.Forms.Label EmailLabel2;
+        private System.Windows.Forms.Label UsernameLabel2;
+        private System.Windows.Forms.Button FetchVariableButton;
+        private System.Windows.Forms.Button FetchHWIDButton;
+        private System.Windows.Forms.Button FetchNewsButton;
     }
 }
-
