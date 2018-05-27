@@ -3,7 +3,7 @@
 
 **__Description__**
 
-Checksusm is a server-sided anti-tamper. It will not accept any requests without a valid checksum from your application that have not been added to the verified checksums. This stops `cracked` applications from accessing EZLib.
+Checksums is a server-sided anti-tamper. It will not accept any requests without a valid checksum from your application that have not been added to the verified checksums. This stops `cracked` applications from accessing EZLib.
 
 **__Where can I find this feature?__**
 
