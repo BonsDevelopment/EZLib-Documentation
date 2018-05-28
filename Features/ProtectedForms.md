@@ -12,10 +12,38 @@ __Requirements__
 * A created [application](https://ezlib.io/apps/new)
 * EZLib referenced to your project
 
-__Enabling the checksums feature__
+__Enabling the ProtectedForms feature__
 
 1. Navigate to the forms that require a user to be authenticated and have a valid serial
 2. Change the inheritance of `Form` to `ProtectedForms`
 
+C#:
+```csharp
+using EZLib;
 
-![ProtectedForms](https://i.imgur.com/wpSZ6N8.png)
+namespace EZLib.Example
+{
+    public partial class MainForm : ProtectedForms
+    {
+        public MainForm()
+        {
+            InitializeComponent();
+        }
+    }
+}
+```
+
+VB:
+```vb
+Imports EZLib
+
+Namespace EZLib.Example
+    Public Partial Class MainForm
+        Inherits ProtectedForms
+
+        Public Sub New()
+            InitializeComponent()
+        End Sub
+    End Class
+End Namespace
+```

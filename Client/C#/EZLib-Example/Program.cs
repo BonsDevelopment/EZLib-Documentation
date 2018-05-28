@@ -23,7 +23,7 @@ namespace EZLib.Test
                 AntiSandboxie = false
             };
 
-            var init = new Initialize("JiThi7WwND", "1.0.0", settings);
+            var init = new Initialize("APP_TOKEN", "APP_VERSION", settings);
 
             // Have your application be licensed by EZLib and offer a free mode time for your startup.
             if (init.IsFreeMode())
