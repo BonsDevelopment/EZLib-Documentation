@@ -17,5 +17,18 @@ __Enabling the checksums feature__
 1. Navigate to the forms that require a user to be authenticated and have a valid serial
 2. Change the inheritance of `Form` to `ProtectedForms`
 
+C#:
+```csharp
+using EZLib;
 
-![ProtectedForms](https://i.imgur.com/wpSZ6N8.png)
+namespace EZLib.Example
+{
+    public partial class MainForm : ProtectedForms
+    {
+        public MainForm()
+        {
+            InitializeComponent();
+        }
+    }
+}
+```
