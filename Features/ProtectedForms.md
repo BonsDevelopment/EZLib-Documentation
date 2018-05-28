@@ -32,3 +32,18 @@ namespace EZLib.Example
     }
 }
 ```
+
+VB:
+```vb
+Imports EZLib
+
+Namespace EZLib.Example
+    Public Partial Class MainForm
+        Inherits ProtectedForms
+
+        Public Sub New()
+            InitializeComponent()
+        End Sub
+    End Class
+End Namespace
+```
