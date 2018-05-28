@@ -12,7 +12,7 @@ __Requirements__
 * A created [application](https://ezlib.io/apps/new)
 * EZLib referenced to your project
 
-__Enabling the checksums feature__
+__Enabling the ProtectedForms feature__
 
 1. Navigate to the forms that require a user to be authenticated and have a valid serial
 2. Change the inheritance of `Form` to `ProtectedForms`
